@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-AO" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JZ Recargas - A Sua Plataforma de Recargas em Angola</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0A0A0A;
+            color: #E0E0E0;
+        }
+        .hero-gradient {
+            background: #0A0A0A;
+            background-image: radial-gradient(ellipse 60% 80% at 50% -20%, rgba(37, 99, 235, 0.15), transparent);
+        }
+        .btn-premium {
+            background-image: linear-gradient(to right, #2563EB 0%, #4F46E5 50%, #7C3AED 100%);
+            background-size: 200% auto;
+            color: white;
+            transition: all 0.5s;
+        }
+        .btn-premium:hover {
+            background-position: right center;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.25);
+        }
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="bg-black/70 backdrop-blur-lg sticky top-0 z-50 border-b border-gray-800">
+        <nav class="container mx-auto px-6 py-4 flex justify-center items-center">
+            <div class="text-2xl font-bold text-white tracking-wider">
+                <i class="fa-solid fa-bolt text-blue-500"></i> JZ Recargas
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-gradient pt-20 pb-20 text-center">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4">
+                    A Plataforma de Recargas Feita para Angola
+                </h1>
+                <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-10">
+                    Pague suas recargas e gift cards com Unitel Money e Multicaixa Express. Rápido, seguro e pensado para si.
+                </p>
+                <div class="flex justify-center mb-6">
+                    <img src="https://placehold.co/600x350/111827/3B82F6?text=App+JZ+Recargas" alt="Mockup do aplicativo JZ Recargas" class="rounded-xl shadow-2xl shadow-blue-500/10 max-w-full h-auto">
+                </div>
+                <div class="flex justify-center">
+                    <a href="JZ-Recargas.apk" download class="btn-premium font-bold py-4 px-10 rounded-full text-lg flex items-center gap-3">
+                        <i class="fa-solid fa-download"></i>
+                        <span>Baixar o App Grátis</span>
+                    </a>
+                </div>
+                <p class="text-gray-500 mt-4 text-sm flex justify-center items-center gap-2">
+                    <i class="fa-solid fa-shield-halved text-green-500"></i>
+                    Download seguro. Permitir "Fontes desconhecidas" para instalar.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
